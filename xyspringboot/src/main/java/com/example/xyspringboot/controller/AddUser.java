@@ -8,4 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/AddUser")
 public class AddUser {
 
+    public String userName(){
+        return "test--userName";
+    }
 }
