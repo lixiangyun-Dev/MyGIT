@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class AddUser {
 
     public String userName(){
+        System.out.println("22222");
         return "test--userName";
     }
 }
